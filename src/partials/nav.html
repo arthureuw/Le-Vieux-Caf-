@@ -1,8 +1,22 @@
-<nav id="nav-w">
-    <a class="nav" href="/">Facebook<span></span><span></span></a>
-    <a class="nav" href="/">Instagram<span></span><span></span></a>
-    <a class="nav on" href="/contact">CONTACTS<span></span><span></span></a>
-    <a class="nav on" href="/event">ÉVÉNEMENTS<span></span><span></span></a>
-    <a class="nav" href="/info">CARTES<span></span><span></span></a>
-    <a class="nav" href="/">L’HISTOIRE<span></span><span></span></a>
+<nav class="topnav" id="myTopnav">
+    <a href="javascript:void(0);" class="icon" onclick="navbarTrigger()">
+        <i class="fa fa-bars"></i>
+    </a>
+    <a href="/">Facebook<span></span><span></span></a>
+    <a href="/">Instagram<span></span><span></span></a>
+    <a href="/contact">CONTACTS<span></span><span></span></a>
+    <a href="/event">ÉVÉNEMENTS<span></span><span></span></a>
+    <a href="/info">CARTES<span></span><span></span></a>
+    <a href="/">L’HISTOIRE<span></span><span></span></a>
 </nav>
+
+<script>
+    function navbarTrigger() {
+        const x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
