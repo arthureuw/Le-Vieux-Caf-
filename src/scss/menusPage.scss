@@ -5,6 +5,7 @@
   .title-menu {
     color: #FFFFFF !important;
     h1 {
+      line-height: 2;
       font-size: 60px !important;
     }
   }
@@ -39,7 +40,6 @@
 
       h1 {
         font: normal normal bold 80px/82px Montserrat;
-        letter-spacing: 0;
         color: #274165;
         padding-top: 2%;
       }
@@ -104,7 +104,7 @@
     position: absolute;
     z-index: 0;
     top: 100vh;
-    left: 58%;
+    left: 59%;
     width: 421px;
     height: 106vh;
     background: #284267 0 0 no-repeat padding-box;

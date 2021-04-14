@@ -1,0 +1,71 @@
+.event-page {
+  background: #F0F0F0;
+  margin: auto;
+
+  .top-title {
+    padding: 1% 12%;
+    color: #274165;
+
+    h1 {
+      margin-top: 1%;
+      font: normal normal bold 60px/62px Montserrat;
+    }
+  }
+
+  .carousel {
+    padding-top: 3%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: auto;
+    padding-bottom: 15px;
+
+    .card-alignement {
+      margin-left: 12% !important;
+    }
+
+    .card-header {
+      display: flex;
+      margin-top: 30px;
+      margin-left: 30px;
+      vertical-align: bottom;
+
+      .event-title {
+        display: inline-block;
+        vertical-align: bottom;
+        color: #274165;
+        margin-left: 10px;
+        font: normal normal bold 25px/29px Montserrat;
+      }
+    }
+
+    .card {
+      display: inline-block;
+      background: #FFFFFF 0 0 no-repeat padding-box;
+      box-shadow: 0 2px 5px #00000029;
+      border-radius: 20px;
+      width: 260px;
+      height: 220px;
+      margin: 0 20px;
+
+      .date {
+        background: #274165 0 0 no-repeat padding-box;
+        width: 80px;
+        height: 80px;
+        border-radius: 15px;
+        p {
+          span {
+            font-weight: bold;
+            font-size: 40px;
+          }
+          font: normal normal 300 22px/42px Montserrat;
+          text-align: center;
+          line-height: 1;
+          letter-spacing: 0.52px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+}
