@@ -4,6 +4,9 @@
 
   .title-menu {
     color: #FFFFFF !important;
+    h1 {
+      font-size: 60px !important;
+    }
   }
 
   .menu-card-title {
@@ -83,10 +86,17 @@
     }
 
     .menu-card-image {
-      background-image: url("../background.jpeg");
       position: relative;
-      width: 45vh;
+      width: 35vh;
       //height: 367px;
+    }
+    .image-drink {
+      position: absolute;
+      top: 140.8%;
+      left: 34.35%;
+      width: 19.2% !important;
+      height: 59.3vh !important;
+      z-index: 2;
     }
   }
 
@@ -94,10 +104,16 @@
     position: absolute;
     z-index: 0;
     top: 100vh;
-    left: 50%;
+    left: 58%;
     width: 421px;
     height: 106vh;
     background: #284267 0 0 no-repeat padding-box;
     border-radius: 0 0 20px 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .menu-page {
+    display: none;
   }
 }
