@@ -78,4 +78,18 @@
     }
   }
 
+  @media (max-width: 780px) {
+    .top-title {
+      padding-top: 20px;
+      p {
+        font-size: 15px;
+        font-weight: lighter;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.5;
+      }
+    }
+  }
+
 }
