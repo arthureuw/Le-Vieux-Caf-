@@ -13,10 +13,10 @@
   }
 
   .carousel {
-    padding-top: 3%;
+    //padding-top: 3%;
+    display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
     height: auto;
     padding-bottom: 15px;
 
@@ -24,46 +24,56 @@
       margin-left: 12% !important;
     }
 
-    .card-header {
-      display: flex;
-      margin-top: 30px;
-      margin-left: 30px;
-      vertical-align: bottom;
-
-      .event-title {
-        display: inline-block;
-        vertical-align: bottom;
-        color: #274165;
-        margin-left: 10px;
-        font: normal normal bold 25px/29px Montserrat;
-      }
-    }
-
     .card {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
       background: #FFFFFF 0 0 no-repeat padding-box;
       box-shadow: 0 2px 5px #00000029;
       border-radius: 20px;
-      width: 260px;
-      height: 220px;
-      margin: 0 20px;
+      min-width: 260px;
+      height: 520px;
+      margin: 20px 0;
+
+      .card-content {
+        padding: 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+      }
 
       .date {
         background: #274165 0 0 no-repeat padding-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 80px;
-        height: 80px;
-        border-radius: 15px;
+        height: 35px;
+        border-radius: 10px;
+
         p {
           span {
             font-weight: bold;
-            font-size: 40px;
+            font-size: 20px;
           }
-          font: normal normal 300 22px/42px Montserrat;
+
+          font: normal normal 300 18px/38px Montserrat;
           text-align: center;
           line-height: 1;
           letter-spacing: 0.52px;
           color: #FFFFFF;
         }
+      }
+
+      .event-title {
+        color: #274165;
+        margin: 10px 0;
+        font: normal normal bold 25px/29px Montserrat;
+      }
+
+      p {
+        color: #274165;
+        font: normal normal 300 15px/23px Montserrat;
       }
     }
   }
