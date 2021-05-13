@@ -16,4 +16,29 @@
     }
   }
 
+  .card {
+    position: relative;
+    padding: 2%;
+    left: 15%;
+    bottom: 55%;
+
+    background: #274066;
+    color: #FFFFFF;
+
+    width: 22%;
+    height: 40%;
+    border-radius: 20px;
+
+    .title {
+      font: normal normal bold 48px/58px Montserrat;
+    }
+
+    .contact {
+
+      .category {
+        opacity: 0.7;
+      }
+    }
+  }
+
 }
