@@ -1,0 +1,19 @@
+.map-page {
+  background: #F0F0F0;
+  margin: auto;
+
+  .background {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .map {
+      height: 50vh;
+      width: 100%;
+      background-image: url("../assets/images/map.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+}
