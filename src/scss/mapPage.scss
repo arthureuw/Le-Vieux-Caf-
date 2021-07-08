@@ -40,5 +40,16 @@
       }
     }
   }
+}
 
+@media (max-width: 780px) {
+  .card {
+    width: 70% !important;
+    height: 40%;
+    padding: 6% !important;
+
+    .title {
+      font: normal normal bold 38px/48px Montserrat !important;
+    }
+  }
 }

@@ -13,7 +13,7 @@
   .menu-card-title {
     align-self: flex-end;
     padding: 2%;
-    z-index: 0;
+    z-index: 99;
     color: #274165;
     p {
       font: normal normal 300 20px/24px Montserrat;
@@ -28,6 +28,7 @@
   .card-drink {
     flex-direction: row-reverse;
     text-align: right;
+    justify-content: flex-start;
 
     .menu-card-title {
       align-self: flex-end;
@@ -55,8 +56,7 @@
       background: #FFFFFF;
       z-index: 1;
       width: 80vh;
-      //height: 367px;
-      padding: 49px;
+      padding: 2%;
 
       box-shadow: 0 1px 5px #00000029;
       border-radius: 15px 0 0 15px;
@@ -87,14 +87,10 @@
     .menu-card-image {
       position: relative;
       width: 35vh;
-      //height: 367px;
     }
     .image-drink {
-      position: absolute;
-      top: 131.5%;
-      left: 29%;
       width: 19.2% !important;
-      height: 40vh !important;
+      height: 32vh !important;
       z-index: 2;
     }
   }
@@ -103,8 +99,8 @@
     position: absolute;
     z-index: 0;
     top: 100vh;
-    left: 59%;
-    width: 421px;
+    left: 66%;
+    width: 30%;
     height: 106vh;
     background: #284267 0 0 no-repeat padding-box;
     border-radius: 0 0 20px 20px;
